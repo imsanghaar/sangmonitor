@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run build:happy",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
+  "env": {
+    "VITE_VARIANT": "happy"
+  },
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run build:finance",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
+  "env": {
+    "VITE_VARIANT": "finance"
+  },
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  }
+}

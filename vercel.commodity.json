@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run build:commodity",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
+  "env": {
+    "VITE_VARIANT": "commodity"
+  },
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  },
+  "project": "sang-monitor-commodity"
+}
